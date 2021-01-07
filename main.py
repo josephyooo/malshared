@@ -71,7 +71,6 @@ def gentable(shared, users):
         
         table.append(row)
 
-    table=['|'.join([str([a for a in i])]) for i in table]
     return table
 
 def format_table(table):
