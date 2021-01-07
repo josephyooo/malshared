@@ -104,6 +104,8 @@ if __name__ == "__main__":
         'sort': 'anime_title',
         'limit': '10'
     }
+    
+    users=[]
 
     shared=getshared(token, parameters, users)
     table=gentable(shared, users)
