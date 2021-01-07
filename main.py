@@ -148,4 +148,3 @@ if __name__ == "__main__":
         for i in shared.formatted:
             output.write(str(i)+'\n')
 
-print()
